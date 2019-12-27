@@ -31,6 +31,7 @@ int main()
 
 	MSTCluster newMST = MSTCluster(numVertices, vec);
 
+	// determine adjacency matrix representation of a 2-cluster graph 
 	std::vector<std::vector<int>> kClusters = newMST.KCluster(2);
 
 	printMatrix(numVertices, kClusters);

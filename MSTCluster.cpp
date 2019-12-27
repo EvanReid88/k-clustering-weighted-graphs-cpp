@@ -8,7 +8,7 @@ MSTCluster::MSTCluster(int numVertices, std::vector<std::vector<int>> adjMatrix)
 	_adjMatrix = adjMatrix;
 }
 
-// A utility function to find the vertex with  
+// A function to find the vertex with  
 // minimum key value, from the set of vertices  
 // not yet included in MST  
 int MSTCluster::minKey(int key[], bool vertSet[])  
