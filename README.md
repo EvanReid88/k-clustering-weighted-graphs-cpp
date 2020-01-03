@@ -1,7 +1,7 @@
 # K-Clustering using Minimum Weight Spanning Trees with Adjacency Matrix Representation
 
 - MSTCluster.cpp is a c++ class which utilizes prim's algorithm for determining minimum weight spanning tree from an adjacency matrix representation of a weighted, non-directional graph. 
-- The algorithm then removes the k-1 maximum weight edges in the MST to determine the graph with k-clusters.
+- The algorithm then removes the maximum weight edges in the MST to determine the graph with k-clusters.
 
 # Example
 
